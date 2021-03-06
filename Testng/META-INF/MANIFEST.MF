@@ -1,0 +1,65 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: 11.0.3 (Oracle Corporation 11.0.3+12-LTS)
+Tool: Bnd-4.0.0.201805111645
+Bnd-LastModified: 1566055988969
+Export-Package: org.testng;version="7.0.0";uses:="com.beust.jcommander,c
+ om.google.inject,javax.annotation,org.apache.tools.ant,org.apache.tools
+ .ant.taskdefs,org.apache.tools.ant.types,org.testng.annotations,org.tes
+ tng.internal,org.testng.internal.annotations,org.testng.internal.junit,
+ org.testng.thread,org.testng.xml",org.testng.annotations;version="7.0.0
+ ";uses:="com.google.inject,org.testng,org.testng.internal.annotations",
+ org.testng.asserts;version="7.0.0",org.testng.collections;version="7.0.
+ 0",org.testng.internal;version="7.0.0";uses:="com.google.inject,javax.a
+ nnotation,org.testng,org.testng.annotations,org.testng.internal.annotat
+ ions,org.testng.internal.thread,org.testng.junit,org.testng.reporters,o
+ rg.testng.thread,org.testng.xml",org.testng.internal.annotations;versio
+ n="7.0.0";uses:="org.testng,org.testng.annotations,org.testng.internal,
+ org.testng.xml",org.testng.internal.collections;version="7.0.0",org.tes
+ tng.internal.invokers;version="7.0.0";uses:="org.testng",org.testng.int
+ ernal.junit;version="7.0.0",org.testng.internal.reflect;version="7.0.0"
+ ;uses:="org.testng",org.testng.internal.thread;version="7.0.0";uses:="o
+ rg.testng,org.testng.thread",org.testng.internal.thread.graph;version="
+ 7.0.0";uses:="org.testng,org.testng.internal,org.testng.thread",org.tes
+ tng.junit;version="7.0.0";uses:="junit.framework,org.junit.runner,org.t
+ estng,org.testng.internal,org.testng.internal.annotations,org.testng.xm
+ l",org.testng.log;version="7.0.0",org.testng.log4testng;version="7.0.0"
+ ,org.testng.mustache;version="7.0.0",org.testng.reporters;version="7.0.
+ 0";uses:="javax.annotation,org.testng,org.testng.internal,org.testng.xm
+ l",org.testng.reporters.jq;version="7.0.0";uses:="org.testng,org.testng
+ .reporters,org.testng.xml",org.testng.reporters.util;version="7.0.0";us
+ es:="org.testng",org.testng.thread;version="7.0.0";uses:="org.testng",o
+ rg.testng.util;version="7.0.0";uses:="org.testng",org.testng.xml;versio
+ n="7.0.0";uses:="org.testng,org.testng.reporters,org.testng.xml.dom,org
+ .xml.sax,org.xml.sax.helpers",org.testng.xml.dom;version="7.0.0";uses:=
+ "javax.xml.parsers,org.testng,org.testng.internal.collections,org.testn
+ g.xml,org.w3c.dom,org.xml.sax",org.testng.xml.internal;version="7.0.0";
+ uses:="org.testng.xml"
+Import-Package: com.beust.jcommander;version="[1.7.0,3.0.0)";resolution:
+ =optional,com.google.inject;version="[1.2,1.3)";resolution:=optional,ju
+ nit.framework;version="[3.8.1, 5.0.0)";resolution:=optional,org.junit;r
+ esolution:=optional,org.junit.runner;resolution:=optional,org.junit.run
+ ner.manipulation;resolution:=optional,org.junit.runner.notification;res
+ olution:=optional,org.apache.tools.ant;version="[1.7.0, 2.0.0)";resolut
+ ion:=optional,org.apache.tools.ant.taskdefs;version="[1.7.0, 2.0.0)";re
+ solution:=optional,org.apache.tools.ant.types;version="[1.7.0, 2.0.0)";
+ resolution:=optional,org.apache.tools.ant.types.resources;version="[1.7
+ .0, 2.0.0)";resolution:=optional,org.apache.tools.ant.types.selectors;v
+ ersion="[1.7.0, 2.0.0)";resolution:=optional,org.yaml.snakeyaml;version
+ ="[1.6,2.0)";resolution:=optional,org.yaml.snakeyaml.constructor;versio
+ n="[1.6,2.0)";resolution:=optional,org.yaml.snakeyaml.nodes;version="[1
+ .6,2.0)";resolution:=optional,javax.annotation,javax.script,javax.xml.p
+ arsers,org.w3c.dom,org.xml.sax,org.xml.sax.helpers
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Bundle-Description: TestNG is a testing framework.
+Specification-Title: testng
+Specification-Version: 7.0.0
+Bundle-Name: testng
+Bundle-License: http://apache.org/licenses/LICENSE-2.0
+Bundle-Version: 7.0.0
+Built-By: cedric
+Build-Date: 2019-08-17
+Build-Time: 08:44:46.915-0700
+Automatic-Module-Name: org.testng
+Bundle-SymbolicName: org.testng
+
